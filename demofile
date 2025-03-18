@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {          
             steps {
-                git branch: "main", url: "https://github.com/Bhavesh-Kapur/mvn_build_cicd.git"
+                git branch: "main", url: "https://github.com/devbhaveshops/mvn_build_cicd.git"
             }
         }
         stage('Build') {
